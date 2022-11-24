@@ -1,4 +1,8 @@
 <p align=“center”>
+<form action=“https://github.com/James-Tuppen/JetBrains-Mono-for-Apple/raw/main/JetBrains%20Mono.mobileconfig”>
+    <input type=“submit” value=“Yee” />
+</form>
+
 ## [INSTALL FONT](https://github.com/James-Tuppen/JetBrains-Mono-for-Apple/raw/main/JetBrains%20Mono.mobileconfig)
 </p>
 
