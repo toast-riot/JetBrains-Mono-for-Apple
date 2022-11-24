@@ -1,1 +1,1 @@
-# JetBrains-Mono-for-Apple
+# JetBrains Mono for Apple
