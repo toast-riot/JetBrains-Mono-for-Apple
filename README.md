@@ -1,10 +1,12 @@
-# JetBrains Mono for Apple
+## [INSTALL FONT](https://github.com/James-Tuppen/JetBrains-Mono-for-Apple/raw/main/JetBrains%20Mono.mobileconfig)
+
+## JetBrains Mono for Apple
 This is a configuration profile for iOS, iPadOS and MacOS that includes the entire JetBrain Mono font and all its variations (italic, bold, thin, ect.). This was made so you don’t have to install each of the 32 fonts separately through some half-gigabyte ad-infested font app. Also includes the (very crappy) code I used to make it. Perhaps I’ll make a website to do this online at some point.
 
-### The story
+#### The story
 I want all variations of JetBrain Mono in one profile, I spend two hours on an iPad making a script to do it. If my code sucks it’s because I typed it on an iPad. Also not tested in anything other than Pythonista, and only seems to run in Python 2. Yes I could make it run in Python 3, but why bother?
 
-### The full story mostly so I can look back at how much time I wasted as a kid
+#### The full story mostly so I can look back at how much time I wasted as a kid
 -I have five different school assessments due in two days, and I am a long way behind
 -I want JetBrains on my school iPad because it is one of the only good fonts that exists
 -I download the ttf files
