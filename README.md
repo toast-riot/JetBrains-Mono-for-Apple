@@ -4,7 +4,7 @@
 This is a configuration profile for iOS, iPadOS and MacOS that includes the entire JetBrain Mono font and all its variations (italic, bold, thin, ect.). This was made so you don’t have to install each of the 32 fonts separately through some half-gigabyte ad-infested font app. Also includes the (very crappy) code I used to make it. Perhaps I’ll make a website to do this online at some point.
 
 #### The story
-I want all variations of JetBrain Mono in one profile, I spend two hours on an iPad making a script to do it. If my code sucks it’s because I typed it on an iPad. Also not tested in anything other than Pythonista, and only seems to run in Python 2. Yes I could make it run in Python 3, but why bother?
+I want all variations of JetBrain Mono in one profile, I spend two hours on an iPad making a script to do it. If my code sucks it’s because I typed it on an iPad. Also not tested in anything other than Pythonista.
 
 #### The full story mostly so I can look back at how much time I wasted as a kid
 -I have five different school assessments due in two days, and I am a long way behind
@@ -18,3 +18,6 @@ I want all variations of JetBrain Mono in one profile, I spend two hours on an i
 -I want to have all the variations, but not 32 profiles installed manually. You even have to go through slow dialog and put your password in each time
 -I try putting all the fonts in one .plist then turn it into a .mobileconfig with Text Workflow, but the file quickly passes 5mb and my editors crash or lag editing it
 -I write a Python script to do it for me
+
+#### Updates
+-26/11/2022: Literally changed a ONE LETTER bug and not it works in Python 3, seriously?!?

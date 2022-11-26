@@ -2,20 +2,15 @@ import plistlib
 import uuid
 import os
 
-#######################################
-#####  WILL ONLY RUN IN PYTHON 2  #####
-#######################################
-
-
 #Where I put all the fonts I'm about to package
-font_path = '/var/mobile/Containers/Shared/AppGroup/32AEC5B4-31E0-4501-9EC9-7CCAC0EB99A7/Pythonista3/Documents/Scratchpad/ttf'
+font_path = '/var/mobile/Containers/Shared/AppGroup/32AEC5B4-31E0-4501-9EC9-7CCAC0EB99A7/Pythonista3/Documents/Scratchpad/Combine/in'
 
 def main():
 	payloads = []
 	#Get the ttf fonts
 	for fnt in os.listdir(font_path):
 		#Get font
-		with open(font_path + '/' + fnt, 'r') as f:
+		with open(font_path + '/' + fnt, 'rb') as f:
 			font_data = f.read()
 		
 		unique_id = uuid.uuid4().urn[9:].upper()
