@@ -12,9 +12,7 @@ OUTPUT_PATH = "./output"
 CONFIG = {
     "display_name": "JetBrains Mono",
     "description": "JetBrains Mono and all its variations in one config profile",
-    "organization": "toast_riot",
-    "identifier": "com.toast-riot.JetBrains-Mono",
-    "uuid": uuid.uuid4().urn[9:].upper(), # Generate unique id so it does not overwrite other profiles
+    "identifier": "com.example.JetBrains-Mono",
     "version": 1
 }
 
@@ -29,7 +27,6 @@ def main():
         payloads.append({
             "Font": font_data,
             "PayloadIdentifier": CONFIG["identifier"] + "." + font,
-            "PayloadOrganization": CONFIG["organization"],
             "PayloadType": "com.apple.font",
             "PayloadUUID": uuid.uuid4().urn[9:].upper(),
             "PayloadVersion": 1
@@ -41,10 +38,8 @@ def main():
         "PayloadDescription": CONFIG["description"],
         "PayloadDisplayName": CONFIG["display_name"],
         "PayloadIdentifier": CONFIG["identifier"],
-        "PayloadOrganization": CONFIG["organization"],
-        "PayloadRemovalDisallowed": False,
         "PayloadType": "Configuration",
-        "PayloadUUID": CONFIG["uuid"],
+        "PayloadUUID": uuid.uuid4().urn[9:].upper(),
         "PayloadVersion": CONFIG["version"]
     }
 
